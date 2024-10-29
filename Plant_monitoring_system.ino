@@ -25,9 +25,7 @@ const int NH3_PIN = A3;
 // Define BMP280 sensor
 Adafruit_BMP280 bmp; // I2C
 
-// // Define DHT11 Pin
-// const int H_PIN = 3;
-// DHT dht(H_PIN, DHT11);
+
 DHT11 dht11(3);
 
 
@@ -112,8 +110,7 @@ void setup()
     while (1);
   }
 
-  // Initialize DHT11 sensor
-  // dht.begin();
+ 
 }
 
 void loop()
@@ -148,9 +145,7 @@ void loop()
   // Update Matter illuminance sensor with LDR illuminance
   matter_illuminance_sensor.set_measured_value_lux(illuminance);
 
-  // Read DHT11 sensor value
-  
-  //float humidity_value = DHT.read(DHT11PIN);
+
 
   // Print DHT11 sensor value
   //Serial.printf("Humidity: %.02f %%\n", DHT11.humidity);
@@ -158,8 +153,7 @@ void loop()
   // Update Matter humidity sensor with DHT11 humidity
   matter_humidity_sensor.set_measured_value(humidity);
 
-  // Control Red LED based on illuminance
-  
+  // Control Red LED based on Temperature, Humidity and light Intensity   
 
   if (temperature < 23) {
     digitalWrite(RED_LED_PIN, HIGH);
