@@ -1,3 +1,5 @@
+### Matter Driven: Plant Monitoring System
+
 ## Aim: 
 
 The goal of this project is to create a smart monitoring system for home plants, utilizing a range of sensors to observe environmental conditions and make real-time adjustments to optimize plant health. The system aims to enhance the care of house plants by monitoring key factors such as temperature, air quality, humidity, and light intensity. This project is part of a broader initiative involving a nano matter board challenge, where innovative sensor-based solutions are explored to address environmental monitoring and automation needs.
