@@ -4,6 +4,8 @@
 
 The goal of this project is to create a smart monitoring system for home plants, utilizing a range of sensors to observe environmental conditions and make real-time adjustments to optimize plant health. The system aims to enhance the care of house plants by monitoring key factors such as temperature, air quality, humidity, and light intensity. This project is part of a broader initiative involving a nano matter board challenge, where innovative sensor-based solutions are explored to address environmental monitoring and automation needs.
 
+![Device](./images/Device.jpg)
+
 ## Nano Matter Board Challenge:
 
 The Smart Plant Monitoring System is developed as part of a thread challenge using a nano matter board. This board offers advanced capabilities to handle multiple sensor inputs simultaneously and perform real-time data processing. The nano matter board serves as the backbone of the system, efficiently managing sensor data and coordinating various control actions.
@@ -42,7 +44,8 @@ The DHT11 sensor continuously monitors humidity levels. If the detected humidity
 The LDR measures the ambient light intensity. The LED module changes its colors based on the specific requirements of the plants or the severity of the conditions. This visual feedback helps the user take appropriate actions to improve the environment for the plants. If the ambient light intensity remains within normal levels, the system indicates stability with the blue LED.
 
 ## Actuation and Alexa Integration:
-
+![Alexa](./images/Alexa.png)
+![App](./images/App.jpg)
 
 
 Irrigation System: The system uses real-time data analysis to avoid over-watering or under-watering, only providing irrigation when necessary based on feedback from multiple sensors.
